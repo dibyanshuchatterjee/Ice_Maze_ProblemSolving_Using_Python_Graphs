@@ -1,0 +1,7 @@
+* In test case 1 : The whole of the escape row is kept as a rock, hence blocking the escape vertex.
+In this case the iteration gets stuck into an infinite loop and all we see is the no path.
+
+* In test case 2 : The whole of the pond is kept to be ice hence not having any blocking point and much loops.
+
+* In test case 3 : The number of rows are kept to be 4 and columns to be 6 and the escape row to be 2
+With a few rocks in between, making it very non trivial for the traversal to escape, hence we get a relatively bigger "no path" list.
